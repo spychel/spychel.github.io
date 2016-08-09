@@ -1,0 +1,127 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(255,255,255);
+}
+
+#wrapper {
+  width: 100%;
+  height: 660px;
+  margin: 0 auto;
+  background-image: url(../img/bg.jpg);
+  background-repeat:no-repeat;
+  background-position:right center;
+  background-attachment:fixed;
+  -o-background-size: auto 100%, auto;
+  -moz-background-size: auto 100%, auto;
+  -webkit-background-size: auto 100%, auto;
+  background-size: auto 100%, auto;
+  z-index: 0;
+  position: relative;
+}
+
+
+.header {
+  width: 50%;
+  height: 188px;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.doc {
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50pt;
+  color: rgba(76,76,69,1);
+  display: inline;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.plus {
+  color: rgb(204,0,0);
+  font-size: 30pt;
+  line-height: 200px;
+  display: inline;
+  position: absolute;
+  top: 0px;
+  left: 260px;
+}
+.btn {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background: rgba(232,232,232, 0.25);
+  margin-left: 40px;
+  margin: 15px 40px;
+}
+
+.b1 {
+  background-image: url(../img/about.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.b2 {
+  background-image: url(../img/foto.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.b3 {
+  background-image: url(../img/price.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.b4 {
+  background-image: url(../img/link.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.btn:hover {
+  box-shadow: inset 2px 2px 2px 2px rgba(0,0,0, .25);
+}
+
+.btn-panel {
+  float:left;
+}
+
+.panelwrap {
+  margin-left: 200px;
+  position: relative;
+}
+
+.panel {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgba(225,225,225, .1);
+  border-radius: 50px;
+  width: 800px;
+  height: 460px;
+  position: absolute;
+  overflow: hidden;
+  list-style-image: url(../img/crest.png);
+  padding: 20px 20px;
+  line-height: 30px;
+}
+
+.panel ul {
+  margin-left: 40px;
+}
+.panel1 {
+  display: none;
+}
+.panel2 {
+  display: none;
+}
+.panel3 {
+  display: none;
+}
+.panel4 {
+  display: none;
+}
+
